@@ -33,6 +33,10 @@ body{
     background: black;
 }
 
+#login:hover{
+    cursor: pointer;
+}
+
 /*Body styles*/
 
 .content{

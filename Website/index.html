@@ -4,10 +4,30 @@
 		<title>Personal Weather Station</title>
 		<link rel="stylesheet" href = "styles/styles.css" >
 		<link rel="stylesheet" href = "styles/signin.css" >
-		<script type="text/Javascript" src="scripts/signin.js"/>
 	</head>
 	<body>
 		<div class = "header">
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+					<!-- Modal content -->
+				<div class="modal-content">
+					<div id = "signin_heading">
+						<span>SIGN IN</span>
+					</div>
+					<div>
+						<label> E-Mail Id: </label>
+						<input type="text" id = "email" placeholder="Email">
+					</div>
+					<div>
+						<label> Password: </label>
+						<input type="password" id = "pass" placeholder="Password">
+					</div>
+					<button class="cancel">Cancel</button>
+					<button class="login">Sign In</button>
+					<div id = "border_color">
+					</div>
+				</div>
+			</div>
 			<div id="home_header">
 				<ul>
 					<li>
@@ -15,9 +35,7 @@
 					</li>
 					<li>
 						<div class="but">
-							<a id="login">
-								<span >SignIn</span>
-							</a>
+							<a id="login">SignIn</a>
 						</div>
 					</li>
 				</ul>
@@ -44,16 +62,9 @@
 				</div>
 			</div>
 		</div>
-		<!-- The Modal -->
-		<div id="myModal" class="modal">
-				<!-- Modal content -->
-			<div class="modal-content">
-				<span class="close">&times;</span>
-				<p>Some text in the Modal..</p>
-			</div>
-		</div>
 		<div class = "footer">
 			<p>Some Footer</p>	
 		</div>
+		<script type="text/Javascript" src="scripts/signin.js"></script>
 	</body>
 </html>
