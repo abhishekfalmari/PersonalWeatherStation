@@ -1,5 +1,7 @@
 body{
+    background: linear-gradient(lightblue, lightgray, green);
     margin: 0;
+    background-attachment: fixed;
 }
 #logo{
     font-size: 40px;
@@ -7,7 +9,6 @@ body{
 }
 
 .header{
-    background: linear-gradient(powderblue, lightgray);
     height: 5%;
 }
 
@@ -32,32 +33,11 @@ body{
     background: black;
 }
 
-.footer{
-    background: red;
-    width: 100%;    
-    bottom: 0;
-    height: 15%;
-    position: fixed;
-    /*position: absolute;*/
-}
+/*Body styles*/
 
 .content{
     position: fixed;
     width: 100%;
-    height: 100%;
-}
-
-.left_section{
-    /*margin-top: 2%;
-    margin-left: 10%;*/
-    width: 60%;
-    float: left;
-    height: 100%;
-}
-.right_section{
-    background: black;
-    width: 40%;
-    float: right;
     height: 100%;
 }
 
@@ -67,3 +47,58 @@ body{
     letter-spacing: 6px;
     word-spacing: 6px;
 }
+
+.left_section{
+    /*margin-top: 2%;
+    margin-left: 10%;*/
+    width: 60%;
+    float: left;
+    height: 100%;
+}
+
+.left_section p{
+    border: 1px solid brown;
+    margin: 4% 10% 0 15%;
+}
+
+.right_section{
+    width: 40%;
+    float: right;
+    height: 100%;
+}
+
+.right_section div{
+    margin: 25% 15% 0 15%;
+}
+
+.right_section p{
+    border: 1px solid brown;
+    margin: 0 0 0 15%;
+    height: 110px;
+    width: 150px
+}
+
+#photo_1 , #photo_2{
+    padding: 5%;
+}
+
+#photo_1{
+    margin-top: 18%;
+}
+
+#photo_2{
+    margin-top: 0;
+}
+
+
+/*Footer styles*/
+
+.footer{
+    text-align: center;
+    width: 100%;    
+    bottom: 0;
+    height: 15%;
+    position: fixed;
+    /*position: absolute;*/
+}
+
