@@ -7,25 +7,25 @@
 	</head>
 	<body>
 		<div class = "header">
-			<!-- The Modal -->
-			<div id="myModal" class="modal">
-					<!-- Modal content -->
-				<div class="modal-content">
+			<div id="signin_modal" class="modal">
+				<div class="signin-modal-content">
 					<div id = "signin_heading">
 						<span>SIGN IN</span>
 					</div>
-					<div>
-						<label> E-Mail Id: </label>
-						<input type="text" id = "email" placeholder="Email">
-					</div>
-					<div>
-						<label> Password: </label>
-						<input type="password" id = "pass" placeholder="Password">
-					</div>
-					<button class="cancel">Cancel</button>
-					<button class="login">Sign In</button>
-					<div id = "border_color">
-					</div>
+					<form action="dashboard.html">
+						<div>
+							<label> E-Mail Id: </label>
+							<input type="text" id = "email" placeholder="Email">
+						</div>
+						
+						<div>
+							<label> Password: </label>
+							<input type="password" id = "pass" placeholder="Password">
+						</div>
+						
+						<button class="cancel">Cancel</button>
+						<input type = "submit" class="login" value="Sign In">
+					</form>
 				</div>
 			</div>
 			<div id="home_header">

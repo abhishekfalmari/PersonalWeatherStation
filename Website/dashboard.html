@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>DashBoard</title>
+		<link rel = "stylesheet" href = "styles/styles.css" >
+		<link rel = "stylesheet" href = "styles/signin.css" >
+		<link rel = "stylesheet" href = "styles/dashboard.css">
+	</head>
+	<body>
+		<div class = "header">
+			<div id="signin_modal" class="modal">
+				<div class="signin-modal-content">
+					<div id = "signin_heading">
+						<span>SIGN IN</span>
+					</div>
+					<form action="dashboard.html">
+						<div>
+							<label> E-Mail Id: </label>
+							<input type="text" id = "email" placeholder="Email">
+						</div>
+						
+						<div>
+							<label> Password: </label>
+							<input type="password" id = "pass" placeholder="Password">
+						</div>
+						
+						<button class="cancel">Cancel</button>
+						<input type = "submit" class="login" value="Sign In">
+					</form>
+				</div>
+			</div>
+			<div id="home_header">
+				<ul>
+					<li>
+						<span id = 'logo'>PSW</span>
+					</li>
+					<li>
+						<div class="but">
+							<a id="login">SignIn</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class = "content">
+			<div class = "left-section">
+				<div class = "left-top">
+					<div id = "home">
+						<h1>HOME</h1>
+					</div>
+					<div class = "weather-icons home">
+						<p>Weather is great today</p>
+					</div>
+				</div>
+				<div class = "left-bottom">
+					<div id = "playground">
+						<h1>Playground</h1>
+					</div>
+					<div class = "weather-icons playground">
+						<p>Weather is great today</p>
+					</div>
+				</div>
+			</div>
+			<div class = "right-section">
+				<div class = "right-top">
+					<div id = "office">
+						<h1>OFFICE</h1>
+					</div>
+					<div class = "weather-icons office">
+						<p>Weather is great today</p>
+					</div>
+				</div>
+				<div class = "right-bottom">
+					<div id = "school">
+						<h1>SCHOOL</h1>
+					</div>
+					<div class = "weather-icons school">
+						<p>Weather is great today</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class = "footer">
+			<p>Some Footer</p>	
+		</div>
+	</body>
+</html>

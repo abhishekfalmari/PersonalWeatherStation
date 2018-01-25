@@ -13,7 +13,7 @@
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-.modal-content {
+.signin-modal-content {
     background-color: #fefefe;
     margin: auto;
     /*border: 1px solid black;*/
@@ -22,18 +22,11 @@
     border-radius: 15px;
 }
 
-#border_color{
-    margin: 0;
-    bottom: 0;
-    background: black;
-    border: 1px solid black
-}
-
-.modal-content div{
+.signin-modal-content div{
     padding: 2%;
 }
 
-.modal-content label{
+.signin-modal-content label{
     margin: 3% 0 0 25%;
     font-size: 20px;
 }
